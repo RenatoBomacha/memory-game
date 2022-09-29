@@ -1,0 +1,32 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu>p {
+    font-size: 20px;
+}
+
+.menu-difuldades>button {
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    border: 0 none;
+    cursor: pointer;
+    transition: 0.9s background-color;
+    border-radius: 10px;
+}
+
+.menu-difuldades>button:hover {
+    background: var(--cor-primaria);
+
+    color: var(--cor-texto-claro)
+}
+
+.App {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+}
